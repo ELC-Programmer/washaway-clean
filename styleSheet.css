@@ -1,0 +1,77 @@
+body{
+	margin:0;
+}
+#application{
+	width:95%;
+	margin:auto;
+}
+.titles{
+	font-family: 'Merriweather', serif;
+}
+body {
+	color: white;
+}
+
+.text-message-content {
+	background-color: #111;
+}
+
+.video-element {
+	background-color: #111;
+}
+
+.interviewee {
+	background-color: #111;
+}
+
+.interviewee:hover {
+	border: 2px solid #555;
+}
+
+.interviewee-disabled {
+	background-color: #232323;
+	border: 2px solid #555
+}
+
+.interviewee-disabled * {
+	cursor: default;
+	filter: grayscale(100%);
+}
+
+.interview-view-title, .name {
+	cursor: default;
+}
+
+.title {
+	color: rgb(250, 200, 100);
+}
+
+.video-container {
+	background-color: #111;
+}
+
+.interviewee-disabled-message {
+	background-color: rgb(200, 0, 0);
+}
+
+.question-list {
+	background-color: #806A28;
+}
+
+.question:hover:not(.question-disabled) {
+	color: #FFD9D9
+}
+
+.question-disabled {
+	color: #333;
+}
+
+.question:not(:last-child) {
+	border-bottom: 1px solid white;
+}
+
+/* Buttons */
+.success {
+	background-color: goldenrod;
+	border-color: black;
+}
