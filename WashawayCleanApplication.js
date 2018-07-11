@@ -40,7 +40,7 @@ var WashawayCleanApplication = function(container, toStyle) {
 	});
 		
 	let preIntroView = new VideoMessageView({
-		videoURL: "videos/pre_intro.mov",
+		videoURL: "videos/pre_intro.mp4",
 		title: "Overview",
 		continuePrompt: "Continue",
 		nextView: instructionsView,
