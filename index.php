@@ -3,6 +3,7 @@
 
 <link rel="shortcut icon" href="images/favicon.ico">
 
+<link rel="shortcut icon" href="assets/favicon.png">
 <script>
 	<?php
 		require_once($_SERVER['LIBDIR'] . '/Interviewer/include.js');
