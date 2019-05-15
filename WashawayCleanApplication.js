@@ -50,6 +50,6 @@ var WashawayCleanApplication = function(container, toStyle) {
 	});
 			
 	window.style = new Styling();
-	this.show(preIntroView);
+	this.show(instructionsView);
 }
 extend(StackApplication, WashawayCleanApplication);
