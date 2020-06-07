@@ -1,7 +1,7 @@
 <link href="https://fonts.googleapis.com/css?family=Tajawal|Merriweather" rel="stylesheet">
 <link href="lib/jquery-ui-dark-hive/jquery-ui-dark-hive.min.css" rel="stylesheet">
 
-<link rel="shortcut icon" href="assets/favicon.png">
+<link rel="shortcut icon" href="images/favicon.png">
 <script>
 	<?php
 		require_once($_SERVER['LIBDIR'] . '/Interviewer/include.js');
