@@ -2,6 +2,7 @@
 <link href="lib/jquery-ui-dark-hive/jquery-ui-dark-hive.min.css" rel="stylesheet">
 
 <link rel="shortcut icon" href="images/favicon.png">
+<script src="https://www.youtube.com/iframe_api"></script>
 <script>
 	<?php
 		require_once($_SERVER['LIBDIR'] . '/Interviewer/include.js');
@@ -19,7 +20,6 @@
 	<div id="app-title" class="titles">Washaway Clean</div>
 	<div class="brand" id="left-brand"></div>
 	<div class="brand" id="right-brand"></div>
-	<!-- <img id="brand" src='./../assets/ELC_Logo2.png'> -->
 </div>
 <div id="application"></div>
 <div id="footer">

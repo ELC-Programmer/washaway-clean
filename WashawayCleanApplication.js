@@ -9,7 +9,7 @@ var WashawayCleanApplication = function(container, toStyle) {
 	
 	let interviewees = <?php require(__DIR__ . "/interviewees.json"); ?>;
 	
-	let selectionView = new IntervieweeSelectionView({
+	let selectionView = new YouTubeIntervieweeSelectionView({
 		interviewees: interviewees,
 		interviewTimeLimit: 300,
 		interviewViewType: InterviewView,
@@ -39,8 +39,8 @@ var WashawayCleanApplication = function(container, toStyle) {
 		transition: "slideLeft"
 	});
 		
-	let preIntroView = new VideoMessageView({
-		videoURL: "videos/pre_intro.mp4",
+	let preIntroView = new YouTubeVideoMessageView({
+		videoURL: "uabFRqncY8M",
 		title: "Overview",
 		continuePrompt: "Continue",
 		nextView: instructionsView,
