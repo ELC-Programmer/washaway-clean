@@ -21,8 +21,8 @@ var WashawayCleanApplication = function(container, toStyle) {
 		}
 	});
 	
-	let introView = new VideoMessageView({
-		videoURL: "videos/intro.mov",
+	let introView = new YouTubeVideoMessageView({
+		videoURL: "w4IMulWT-wI",
 		title: "Washaway Clean / Team Leader",
 		continuePrompt: "Continue",
 		nextView: selectionView,
