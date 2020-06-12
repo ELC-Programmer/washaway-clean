@@ -9,10 +9,10 @@ var WashawayCleanApplication = function(container, toStyle) {
 	
 	let interviewees = <?php require(__DIR__ . "/interviewees.json"); ?>;
 	
-	let selectionView = new YouTubeIntervieweeSelectionView({
+	let selectionView = new IntervieweeSelectionView({
 		interviewees: interviewees,
 		interviewTimeLimit: 300,
-		interviewViewType: InterviewView,
+		interviewViewType: YouTubeInterviewView,
 		interviewViewOptions: {
 			canInterrupt: false,
 			idleAfter: 10,
