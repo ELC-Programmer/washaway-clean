@@ -6,8 +6,9 @@
  */
 var WashawayCleanApplication = function(container, toStyle) {
 	StackApplication.call(this, container);
-	
-	let interviewees = <? php require(__DIR__ . "/LocalInterviewees.json"); ?>;
+
+	let interviewees = <?php require(__DIR__ . "/interviewees.json"); ?>;
+
         let youtube = false;
 	
 	let selectionView = new IntervieweeSelectionView({
